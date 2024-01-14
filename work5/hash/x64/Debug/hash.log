@@ -1,0 +1,5 @@
+﻿  hash.cpp
+D:\daerxia\mimaxue\codes\work5\hash\hash.cpp(124,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\work5\hash\hash.cpp(175,13): warning C4018: “>=”: 有符号/无符号不匹配
+D:\daerxia\mimaxue\codes\work5\hash\hash.cpp(178,37): warning C4018: “<”: 有符号/无符号不匹配
+  hash.vcxproj -> D:\daerxia\mimaxue\codes\work5\hash\x64\Debug\hash.exe
