@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit user</title>
+</head>
+<body>
+	<h1>Edit user</h1>
+	<form method="post" action="{{ url_for('edit_user', iduser=user[0]) }}">
+		<label>iduser:</label>
+		<input type="number" name="iduser" value="{{ user[0] }}"><br>
+		<label>phonenumber:</label>
+		<input type="number" name="phonenumber" value="{{ user[1] }}"><br>
+		<label>name</label>
+		<input type="text" name="name" value="{{ user[2] }}"><br>
+		<label>idca:</label>
+		<input type="number" name="idca" value="{{ user[3] }}"><br>
+		<label>ta:</label>
+		<input type="number" name="ta" value="{{ user[4] }}"><br>
+		<label>pka:</label>
+		<input type="number" name="pka" value="{{ user[5] }}"><br>
+        <label>n:</label>
+		<input type="number" name="n" value="{{ user[6] }}"><br>
+		<label>password:</label>
+		<input type="number" name="password" value="{{ user[7] }}"><br>
+		<label>p:</label>
+		<input type="number" name="p" value="{{ user[8] }}"><br>
+        <label>q:</label>
+		<input type="number" name="q" value="{{ user[9] }}"><br>
+		<label>e:</label>
+		<input type="number" name="e" value="{{ user[10] }}"><br>
+		<input type="submit" value="Save">
+		<a href="{{ url_for('users') }}">cancel</a>
+	</form>
+</body>
+</html>

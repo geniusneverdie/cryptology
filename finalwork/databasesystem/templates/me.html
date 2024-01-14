@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录结果1</title>
+</head>
+<body>
+
+	<li><a href="{{ url_for('users') }}">View users</a></li>
+	<table>
+        <tr>
+            <th>idreceive</th>
+            <th>ida1</th>
+            <th>ta1</th>
+            <th>message1</th>
+            <th>pka1</th>
+            <th>iduser</th>
+            <th>MD5</th>
+           <th>send</th>
+        </tr>
+        {% for receive in receives %}
+        <tr>
+            <td>{{receive[0]}}</td>
+            <td>{{receive[1]}}</td>
+            <td>{{receive[2]}}</td>
+            <td>{{receive[3]}}</td>
+            <td>{{receive[4]}}</td>
+            <td>{{receive[5]}}</td>
+            <td>{{receive[6]}}</td>
+            <td></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('add_send')}}">send</a>
+</body>
+</html>

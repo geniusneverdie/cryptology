@@ -1,0 +1,61 @@
+﻿  server.cpp
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(1,1): warning C4828: 文件包含在偏移 0x4a0e 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(152,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(177,37): warning C4244: “=”: 从“__int64”转换到“char”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(211,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(373,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(373,40): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(373,64): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(374,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(456,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(515,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(553,31): warning C4244: “=”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(645,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(688,53): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\Rsa.h(99,40): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+D:\daerxia\mimaxue\codes\finalwork\server\server\MD5.h(31,5): error C2374: “HexToBit”: 重定义；多次初始化
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(64,5): message : 参见“HexToBit”的声明
+D:\daerxia\mimaxue\codes\finalwork\server\server\MD5.h(38,6): error C2084: 函数“void getbit(std::string,std::bitset<128> &)”已有主体
+D:\daerxia\mimaxue\codes\finalwork\server\server\Aes.h(71,6): message : 参见“getbit”的前一个定义
+D:\daerxia\mimaxue\codes\finalwork\server\server\MD5.h(125,57): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\MD5.h(176,13): warning C4018: “>=”: 有符号/无符号不匹配
+D:\daerxia\mimaxue\codes\finalwork\server\server\MD5.h(179,37): warning C4018: “<”: 有符号/无符号不匹配
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(53,18): warning C4477: “sprintf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(53,18): message : 请考虑在格式字符串中使用“%llu”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(53,18): message : 请考虑在格式字符串中使用“%Iu”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(53,18): message : 请考虑在格式字符串中使用“%I64u”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(54,24): warning C4244: “参数”: 从“unsigned __int64”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(56,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(56,42): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(61,54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(99,33): warning C4244: “=”: 从“unsigned __int64”转换到“char”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(215,35): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned short”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(217,37): warning C4477: “sprintf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(217,37): message : 请考虑在格式字符串中使用“%llu”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(217,37): message : 请考虑在格式字符串中使用“%Iu”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(217,37): message : 请考虑在格式字符串中使用“%I64u”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(219,28): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(230,7): error C2374: “len_of_en_text”: 重定义；多次初始化
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(205,7): message : 参见“len_of_en_text”的声明
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(240,35): warning C4244: “参数”: 从“unsigned __int64”转换到“unsigned short”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(242,37): warning C4477: “sprintf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(242,37): message : 请考虑在格式字符串中使用“%llu”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(242,37): message : 请考虑在格式字符串中使用“%Iu”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(242,37): message : 请考虑在格式字符串中使用“%I64u”
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(244,28): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(251,37): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(53,2): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(54,2): error C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(55,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(58,2): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(174,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(193,3): error C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(194,3): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(217,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(218,4): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(242,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\daerxia\mimaxue\codes\finalwork\server\server\server.cpp(243,4): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

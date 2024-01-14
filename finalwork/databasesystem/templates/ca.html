@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ca List</title>
+</head>
+<body>
+	<h1>ca List</h1>
+	<div>
+	    <a href="/ca/add">Add ca</a>
+	</div>
+	<table>
+
+			<tr>
+				<th>idca</th>
+				<th>pka1</th>
+				<th>skca</th>
+				<th>ta1</th>
+                <th>id1</th>
+                <th>edit</th>
+				<th>delete</th>
+			</tr>
+			{% for ca in cas %}
+			<tr>
+				<td>{{ ca[0] }}</td>
+				<td>{{ ca[1] }}</td>
+				<td>{{ ca[2] }}</td>
+                <td>{{ ca[3] }}</td>
+				<td>{{ ca[4] }}</td>
+				<td><a href="{{ url_for('edit_ca', idca=ca[0]) }}">Edit</a></td>
+				<form action='/ca/delete/{{ca[0]}}' method='POST'>
+                    <input type='submit' value='Delete'>
+            </form>
+			</tr>
+			{% endfor %}
+
+	</table>
+	<li><a href="{{ url_for('index') }}">View all</a></li>
+</body>
+</html>

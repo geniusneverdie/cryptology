@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Database App</title>
+</head>
+<body>
+	<h1>Welcome to rsa</h1>
+	<p>Click on the links below to manage database tables:</p>
+	<ul>
+		<li><a href="{{ url_for('manage') }}">LoginManage</a></li>
+		<li><a href="{{ url_for('login') }}">Login user</a></li>
+
+	<li><a href="{{ url_for('vi') }}">Login v</a></li>
+
+		<li><a href="{{ url_for('ca') }}">View ca</a></li>
+		<li><a href="{{ url_for('send') }}">View send</a></li>
+		<li><a href="{{ url_for('receive') }}">View receive</a></li>
+		<li><a href="{{ url_for('users') }}">View user</a></li>
+	</ul>
+</body>
+</html>

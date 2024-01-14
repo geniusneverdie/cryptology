@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add user</title>
+</head>
+<body>
+	<h1>Add user</h1>
+	<form method="post" action='/user/add'>
+		<label>iduser:</label>
+		<input type="number" name="iduser"><br>
+		<label>phonenumber:</label>
+		<input type="number" name="phonenumber"><br>
+		<label>name:</label>
+		<input type="text" name="name"><br>
+		<label>idca:</label>
+		<input type="number" name="idca"><br>
+		<label>ta:</label>
+		<input type="number" name="ta"><br>
+		<label>password:</label>
+		<input type="number" name="password"><br>
+		<input type="submit" value="Add">
+		<a href="{{ url_for('users') }}">cancel</a>
+	</form>
+</body>
+</html>

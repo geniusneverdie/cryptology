@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>manage List</title>
+</head>
+<body>
+	<h1>manage List</h1>
+	<div>
+	    <a href="/manage/add">Add manage</a>
+	</div>
+	<table>
+
+			<tr>
+				<th>idmanager</th>
+				<th>password</th>
+				<th>iduser</th>
+				<th>edit</th>
+				<th>delete</th>
+			</tr>
+
+
+			{% for manage in manages %}
+			<tr>
+				<td>{{ manage[0] }}</td>
+				<td>{{ manage[1] }}</td>
+				<td>{{ manage[2] }}</td>
+				<td><a href="{{ url_for('edit_manage', idmanager=manage[0]) }}">Edit</a></td>
+				<form action='/manage/delete/{{manage[0]}}' method='POST'>
+                    <input type='submit' value='Delete'>
+            </form>
+			</tr>
+			{% endfor %}
+	</table>
+	<li><a href="{{ url_for('vi') }}">View all</a></li>
+</body>
+</html>
