@@ -1,0 +1,15 @@
+﻿  work3aes.cpp
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(152,43): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(191,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(353,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(353,40): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(353,64): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(354,16): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(455,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(493,31): warning C4244: “=”: 从“__int64”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+D:\daerxia\密码学\codes\work3aes\work3aes.cpp(589,43): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  work3aes.vcxproj -> D:\daerxia\密码学\codes\work3aes\x64\Debug\work3aes.exe
